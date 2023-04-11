@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body head
+{
+    /* margin: 0px; */
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1
+{
+    display: flex-end;
+    flex-direction:  row;
+
+    /* text-align: center; */
+    font-family: Arial Rounded MT Bold;
+    color: aliceblue;
+    font-size: 43px;
+    font: 100;
+    /* margin: 20px 0px 15px 0px; */
+}
+header{
+    background-color:  rgb(106, 188, 250);
+    width: 100%;
+    display: flex;
+}
+.box1{
+    background-color:  rgb(106, 188, 250);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+    display: flex;
+    align-items: flex-start;
+}
+.box{
+    max-width: 500px;
+    background-color:  rgb(106, 188, 250);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 17px;
+    display: flex;
+    align-items: flex-end;
+}
+.search-box{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 27px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+
+}
+
+.img1 {
+    height: 50px;
+    width: 310px;
+    border-radius: 27px;
+    display: flex;
+    align-items: flex-end;
+    /* margin: auto; */
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    transition: width 2s, height 2s,border-radius 2s,background-color 2s;
+}
+.img1:hover{
+    background-image: url(../SGP/logo.jpeg);
+}
+.search-box .icon{
+    margin: auto;
+}
+input[type = "text"]{
+    height: 50px;
+    width: 100%;
+    border: 0px;
+    margin: 27px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.button{ 
+    height: 50px;
+    width: 140px;
+    display: flex;
+    margin: 0px 0px 9px 20px;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 27px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    border: 0ch;
+    color: rgb(45, 164, 255);
+    text-decoration: none;
+}
+.button:hover{
+    text-decoration: none;
+    background-color: rgb(45, 164, 255);
+    color: rgb(255, 255, 255);
+    
+}
+.loginLink:link {
+    text-decoration: none;
+ }
+ .loginLink:hover {
+    text-decoration: none;
+ }
+
+ .navigation
+{
+    background-color: #333;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(50px, auto);
+}
+
+.navigation a 
+{
+    height: auto;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.navigation a:hover
+{
+    background-color: white;
+    color: black;
+}
+.menuPro{
+    margin-left: 684px;
+}
+#drop-down{
+    background-color: #333;
+    color: aliceblue;
+    border: 0ch;
+}
+.drop:hover #drop-down{
+    background-color: white;
+    color: #333;
+}
+.h23{
+    margin-left: 140px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.box2{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.weather #demo{
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
